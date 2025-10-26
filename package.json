@@ -10,7 +10,9 @@
     "lint:fix": "eslint src --ext .ts,.tsx --fix",
     "format": "prettier --write src/**/*.{ts,tsx}",
     "type-check": "tsc --noEmit",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,10 @@
   },
   "homepage": "https://github.com/mikkancso/otter-curve#readme",
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest": "^30.0.0",
     "@typescript-eslint/eslint-plugin": "^8.46.2",
     "@typescript-eslint/parser": "^8.46.2",
     "eslint": "^9.38.0",
@@ -32,7 +38,10 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.0.1",
     "html-webpack-plugin": "^5.6.4",
+    "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.2.0",
     "prettier": "^3.6.2",
+    "ts-jest": "^29.4.5",
     "ts-loader": "^9.5.4",
     "typescript": "^5.9.3",
     "webpack": "^5.102.1",

@@ -11,7 +11,7 @@ const MapContainer = styled.div`
 
 const App: React.FC = () => {
   return (
-    <MapContainer id="map">
+    <MapContainer id="map" data-testid="map-container">
       {/* Mapbox will be initialized here in Milestone 1.2 */}
     </MapContainer>
   );
