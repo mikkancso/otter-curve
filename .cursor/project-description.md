@@ -43,9 +43,11 @@ This project focuses on **custom geometric algorithms** rather than well-known s
 ## 🛠 Technical Stack
 
 - **Language**: TypeScript
-- **3D/2D Graphics**: Three.js (for 2D map rendering and interaction)
+- **UI Framework**: React
+- **Styling**: Emotion CSS
+- **Interactive Maps**: Mapbox GL JS (for interactive map rendering)
 - **Geographic Data**: OpenStreetMap, Natural Earth, or similar
-- **Build System**: Modern TypeScript toolchain
+- **Build System**: Webpack
 - **Testing**: Unit tests for geometric algorithms
 
 ## 🎯 Learning Objectives
@@ -59,7 +61,7 @@ This project focuses on **custom geometric algorithms** rather than well-known s
 ## 🚀 Development Phases
 
 ### Phase 1: Foundation
-- Set up TypeScript + Three.js project
+- Set up TypeScript + React + Mapbox GL JS project
 - Acquire and process Germany's water body data
 - Build basic map renderer with water bodies highlighted
 
