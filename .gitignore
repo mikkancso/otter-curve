@@ -8,3 +8,8 @@ build/
 
 # Environment variables
 .env
+
+# Playwright test results
+test-results/
+playwright-report/
+playwright/.cache/
