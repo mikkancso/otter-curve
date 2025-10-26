@@ -74,12 +74,12 @@ export class MapRenderer {
       container: this.container,
       style: customStyle,
       center: [10.4515, 51.1657], // Germany center (lng, lat)
-      zoom: 6,
-      minZoom: 5,
+      zoom: 4,
+      minZoom: 4,
       maxZoom: 12,
       maxBounds: [
-        [5.5, 47.0], // Southwest corner
-        [15.0, 55.0], // Northeast corner
+        [0, 40.0], // Southwest corner
+        [25.0, 80.0], // Northeast corner
       ],
     });
 
