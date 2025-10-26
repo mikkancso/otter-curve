@@ -1,0 +1,22 @@
+{
+  "name": "otter-curve",
+  "version": "0.1.0",
+  "description": "Geographic pattern matching game for identifying water bodies on interactive maps",
+  "main": "src/index.tsx",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikkancso/otter-curve.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikkancso/otter-curve/issues"
+  },
+  "homepage": "https://github.com/mikkancso/otter-curve#readme"
+}
